@@ -13,7 +13,8 @@
     -10px -10px 20px #ffffff;
 }
 .title{
-    width: 40vw;
+    font-size: 2rem;
+    width: 100%;
     border-radius: 10px;
 }
 .image{
@@ -40,7 +41,7 @@
     padding: 10px;
 }
 .ingredientsDiv{
-    width: 40vw;
+    width: 100%;
     margin-bottom: 1vw;
 }
 .ingredientsList{
@@ -49,9 +50,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 2vw;
 }
 .nutrientsDiv{
-    width: 40vw;
+    width: 100%;
 }
 .nutrientsList{
     list-style-type: none;
@@ -60,6 +62,183 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.nutrient{
-    margin: 1vw;
-}
+
+@media only screen and (max-width: 600px) {
+    .recipe{
+        width: 80vw;
+    }
+    .title{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .image{
+        width: 20%;
+        box-shadow:
+            0px 0px 2px #5f5f5f,
+            0px 0px 0px 5px #ecf0f3,
+            3px 3px 8px #a7aaaf,
+            -3px -3px 8px #ffffff;
+        padding: 3px;
+    
+    }
+
+    .ingredientsNutrientsDiv{
+        width: 80%;
+        font-size: .8rem;
+        margin: 5vw auto;
+    }
+    .ingredientsDiv{
+        width: 100%;
+    }
+    .nutrientsDiv{
+        width: 100%;
+    }
+
+    .nutrientsList{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+    }
+ }
+
+
+ @media only screen and (min-width: 600px) {
+    .recipe{
+        width: 80vw;
+    }
+    .title{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .image{
+        width: 20%;
+        box-shadow:
+            0px 0px 2px #5f5f5f,
+            0px 0px 0px 5px #ecf0f3,
+            3px 3px 8px #a7aaaf,
+            -3px -3px 8px #ffffff;
+        padding: 3px;
+    
+    }
+
+    .ingredientsNutrientsDiv{
+        width: 80%;
+        font-size: 1.2rem;
+        margin: 5vw auto;
+    }
+    .ingredientsDiv{
+        width: 100%;
+    }
+    .nutrientsDiv{
+        width: 100%;
+    }
+
+    .nutrientsList{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+    }
+
+ }
+ 
+ @media only screen and (min-width: 768px) {
+    .recipe{
+        width: 80vw;
+    }
+    .title{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .image{
+        width: 20%;
+        box-shadow:
+            0px 0px 2px #5f5f5f,
+            0px 0px 0px 5px #ecf0f3,
+            3px 3px 8px #a7aaaf,
+            -3px -3px 8px #ffffff;
+        padding: 3px;
+    
+    }
+
+    .ingredientsNutrientsDiv{
+        width: 80%;
+        font-size: 1.2rem;
+        margin: 5vw auto;
+    }
+    .ingredientsDiv{
+        width: 100%;
+    }
+    .nutrientsDiv{
+        width: 100%;
+    }
+
+    .nutrientsList{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+    }
+ } 
+
+ @media only screen and (min-width: 998px) {
+    .recipe{
+        width: 45vw;
+    }
+    .title{
+        font-size: 2rem;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .image{
+        width: 30%;
+        padding: 5px;
+    }
+    .ingredientsNutrientsDiv{
+        border-radius: 10px;
+        box-shadow:
+        inset 2px 2px 2px #cbced1,
+       inset -2px -2px 2px #ffffff;
+        padding: 10px;
+    }
+    .ingredientsDiv{
+        width: 100%;
+    }
+    .nutrientsDiv{
+        width: 100%;
+    }
+ } 
+
+ @media only screen and (min-width: 1200px) {
+    .recipe{
+        width: 45vw;
+    }
+    .title{
+        font-size: 2rem;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .image{
+        width: 30%;
+        padding: 5px;
+    }
+    .ingredientsNutrientsDiv{
+        border-radius: 10px;
+        box-shadow:
+        inset 2px 2px 2px #cbced1,
+       inset -2px -2px 2px #ffffff;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .ingredientsDiv{
+        width: 100%;
+    }
+    .nutrientsDiv{
+        width: 100%;
+    }
+ } 
+
