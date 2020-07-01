@@ -35,8 +35,8 @@
 .ingredientsNutrientsDiv{
     border-radius: 10px;
     box-shadow:
-    inset 10px 10px 10px #cbced1,
-   inset -10px -10px 10px #ffffff;
+    inset 2px 2px 2px #cbced1,
+   inset -2px -2px 2px #ffffff;
     padding: 10px;
 }
 .ingredientsDiv{
